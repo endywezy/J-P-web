@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 4%;
+    border-spacing: 5%;
+    background: #FFFFFF;
+}
+
+.parent1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.2em solid #155EEF;
+    border-radius: 0.8em;
+    margin-bottom: 2%;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+a {
+    text-decoration: none;
+    padding-right: 3.5rem;
+}
+
+.line1 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #041330;
+
+}
+
+.line2 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #2E3A53;
+}
+
+.line3 {
+    border: 0.1em solid #155EEF;
+    border-radius: 0.5em;
+    color: #155EEF;
+    padding: 0.5em;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font: size 1rem;
+    line-height: 150%;
+    color: #155EEF;
+}
+
+.gparent {
+    display: flex;
+    width: 100%;
+    border: 0.2em solid #155EEF;
+    border-radius: 0.8em;
+    margin-bottom: 5%;
+    align-items: center;
+    padding: 5em 2em;
+    justify-content: space-between;
+    background-color: #F9FBFF;
+}
+
+.gfirstchild {
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 7.5em;
+}
+
+.gptext1 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 150%;
+    letter-spacing: 0.0313em;
+    color: #2E3A53;
+    margin-bottom: 1rem;
+
+}
+
+.gptext2 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5em;
+    line-height: 120%;
+    color: #155EEF;
+    margin-bottom: 2rem;
+
+}
+
+.gptext3 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 130%;
+    color: #2E3A53;
+    margin-bottom: 2rem;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #155EEF;
+    padding: 2% 2.4%;
+    border-radius: 0.5em;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    border: 0;
+
+}
+
+.gsecondchild {
+    width: 35%;
+
+}
+
+.ggparent {
+    display: flex;
+    width: 100%;
+    border: 0.2em solid #155EEF;
+    border-radius: 12.8px;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10%;
+    text-align: left;
+    margin-bottom: 5%;
+    padding: 4em 2em;
+}
+
+.ggfirstchild {
+    width: 40%;
+    border: 0.1em solid #155EEF;
+    border-right: none;
+    padding: 0.2em;
+
+}
+
+.ggsecondchild {
+    /* padding-left: 11%; */
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.ggptext1 {
+    width: 100%;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 119.5%;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 5%;
+    color: #2E3A53;
+
+}
+
+.ggptext2 {
+    width: 100%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150%;
+    line-height: 150%;
+    text-align: justify;
+    color: #2E3A53;
+
+}
+
+.posi {
+    display: flex;
+    width: 100%;
+    border: 0.2em solid #155EEF;
+    border-radius: 12.8px;
+    margin-bottom: 5%;
+    padding: 4em 2em;
+    position: relative;
+
+}
+
+.posifirstchild {
+    padding: 2% 7% 5% 2%;
+    gap: 150%;
+    width: 54%;
+    margin-bottom: 7%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2px;
+    line-height: 120%;
+    letter-spacing: 0.0313rem;
+    color: #2E3A53;
+    background: #F9FBFF;
+    z-index: 1;
+
+}
+
+.posisecondchild {
+    width: 53%;
+    position: absolute;
+    left: 44%;
+    top: 25%;
+
+}
+
+.positext {
+    color: #041330;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 120%;
+}
+
+p {
+    margin-bottom: 5%;
+}
+
+.gggparent {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    border: 0.2em solid #155EEF;
+    border-radius: 0.8em;
+    margin-bottom: 1%;
+    padding: 1em 3rem;
+    justify-content: space-between;
+
+}
+
+
+.imgg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+
+
+}
+
+.sj {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: #041330;
+    margin-top: 1.5%;
+
+}
+
+@media screen and (max-width: 870px) {
+
+    .secondchild a {
+        display: none;
+    }
+    body{
+        overflow-x: visible;
+    }
+    a{
+        display:block;
+        cursor: pointer;
+        padding-right: 20%;
+    }
+
+    .secondchild {
+        display: block;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .secondchild span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background-color: #333;
+        border-radius: 3px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: all 0.25s ease-in-out;
+    }
+
+    .secondchild span:before,
+    .secondchild span:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #333;
+        border-radius: 3px;
+        transition: all 0.25s ease-in-out;
+    }
+
+    .secondchild span:before {
+        top: -10px;
+    }
+
+    .secondchild span:after {
+        bottom: -10px;
+    }
+
+   
+    .gparent {
+        flex-direction: column;
+
+    }
+
+    .gfirstchild {
+        text-align: center;
+        margin-bottom: 10%;
+        padding: 0%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .gsecondchild {
+        width: 100%;
+    }
+
+    .ggparent {
+        flex-direction: column-reverse;
+    }
+
+    .ggfirstchild {
+        width: 100%;
+    }
+
+    .ggptext1 {
+        text-align: center;
+    }
+
+    .ggptext2 {
+        padding: 0% auto;
+    }
+
+    .posi {
+        justify-content: space-evenly;
+        umn-reverse;
+        flex-wrap: wrap;
+    }
+
+    .posifirstchild {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+
+    }
+
+    .posisecondchild {
+        width: 2%;
+    }
+
+    .sj {
+        flex-direction: column;
+    }
+
+    .gggparent {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+}
