@@ -257,8 +257,6 @@ p {
 .imgg {
     display: flex;
     flex-direction: row;
-    /* justify-content: center;
-    align-items: center; */
     gap: 3.2rem;
 
 
@@ -276,28 +274,18 @@ p {
 }
 
 @media screen and (max-width: 870px) {
-    .secondchild:hover a {
-        display: block;
-    }
-
-
-    a {
-        display: none;
-        cursor: pointer;
-        padding-right: 20%;
-    }
 
     .secondchild {
-        display: inline-block;
+        display: block;
         width: 30px;
         height: 20px;
         position: relative;
         cursor: pointer;
-    }
-
-    .secondchild span {
+      }
+      
+      .secondchild span {
         display: block;
-
+        position: absolute;
         height: 3px;
         width: 100%;
         background-color: #333;
@@ -306,10 +294,10 @@ p {
         left: 0;
         transform: rotate(0deg);
         transition: all 0.25s ease-in-out;
-    }
-
-    .secondchild span:before,
-    .secondchild span:after {
+      }
+      
+      .secondchild span:before,
+      .secondchild span:after {
         content: "";
         position: absolute;
         width: 100%;
@@ -317,16 +305,23 @@ p {
         background-color: #333;
         border-radius: 3px;
         transition: all 0.25s ease-in-out;
-    }
-
-    .secondchild span:before {
+      }
+      
+      .secondchild span:before {
         top: -10px;
-    }
-
-    .secondchild span:after {
+      }
+      
+      .secondchild span:after {
         bottom: -10px;
-    }
+      }
+      
 
+
+    a {
+        display: none;
+        cursor: pointer;
+        padding-right: 20%;
+    }
 
     .gparent {
         flex-direction: column;
