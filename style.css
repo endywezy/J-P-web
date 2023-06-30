@@ -8,10 +8,10 @@
 
 main {
     padding: 4%;
-    border-spacing: 5%;
     background: #FFFFFF;
 }
 
+/* header */
 .parent1 {
     display: flex;
     width: 100%;
@@ -62,6 +62,7 @@ a {
     color: #155EEF;
 }
 
+/* hero */
 .gparent {
     display: flex;
     width: 100%;
@@ -131,6 +132,7 @@ button {
 
 }
 
+/* about me */
 .ggparent {
     display: flex;
     width: 100%;
@@ -147,7 +149,7 @@ button {
 }
 
 .ggfirstchild {
-    width: 40%;
+    width: 100%;
     border: 0.1em solid #155EEF;
     border-right: none;
     padding: 0.2em;
@@ -184,6 +186,8 @@ button {
     color: #2E3A53;
 
 }
+
+/* Project */
 
 .posi {
     display: flex;
@@ -234,6 +238,8 @@ p {
     margin-bottom: 5%;
 }
 
+/* footer */
+
 .gggparent {
     display: flex;
     width: 100%;
@@ -270,13 +276,6 @@ p {
 }
 
 @media screen and (max-width: 870px) {
-
-    /* *{ */
-    /* padding: 0; */
-    /* margin: 0; */
-    /* box-sizing: ; */
-    /*  */
-    /* } */
     .secondchild:hover a {
         display: block;
     }
@@ -388,7 +387,7 @@ p {
     }
 
     .posisecondchild {
-        width: 2%;
+        display:none;
     }
 
     .sj {
