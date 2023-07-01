@@ -61,6 +61,7 @@ a {
     line-height: 150%;
     color: #155EEF;
 }
+/* header */
 
 /* hero */
 .gparent {
@@ -131,6 +132,8 @@ button {
     width: 35%;
 
 }
+/* hero */
+
 
 /* about me */
 .ggparent {
@@ -186,6 +189,7 @@ button {
     color: #2E3A53;
 
 }
+/* about me */
 
 /* Project */
 
@@ -237,6 +241,7 @@ button {
 p {
     margin-bottom: 5%;
 }
+/* Project */
 
 /* footer */
 
@@ -272,6 +277,8 @@ p {
     margin-top: 1.5%;
 
 }
+/* footer */
+
 
 @media screen and (max-width: 870px) {
 
