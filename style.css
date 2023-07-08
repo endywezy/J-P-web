@@ -9,7 +9,7 @@
 
 main {
     padding: 4%;
-    background: #FFFFFF;  
+    background: #FFFFFF;
 }
 
 /* header */
@@ -22,6 +22,8 @@ main {
     border-radius: 0.8em;
     margin-bottom: 2%;
     padding: 0 2em;
+
+
 }
 
 
@@ -137,6 +139,7 @@ button {
     border: 0;
 
 }
+
 /* hero */
 
 
@@ -194,6 +197,7 @@ button {
     color: #2E3A53;
 
 }
+
 /* about me */
 
 /* Project */
@@ -246,6 +250,7 @@ button {
 p {
     margin-bottom: 5%;
 }
+
 /* Project */
 
 /* footer */
@@ -294,10 +299,6 @@ p {
         display: none;
     }
 
-    header {
-        position: relative;
-    }
-
     .header2 {
         display: flex;
         width: 100%;
@@ -307,8 +308,8 @@ p {
         border-radius: 0.8em;
         margin-bottom: 2%;
         padding: 0 2em;
-        position: fixed
     }
+
 
     nav {
         flex-direction: column;
@@ -318,7 +319,7 @@ p {
         top: 0.1%;
         right: 3%;
         background-color: #F9FBFF;
-        z-index: 3;
+        z-index: 2;
     }
 
     .nav p {
@@ -364,10 +365,10 @@ p {
     }
 
     .lines {
-        position: absolute;
         top: 0.5;
         right: 9%;
         cursor: pointer;
+        position: absolute;
     }
 
     .bar1 {
