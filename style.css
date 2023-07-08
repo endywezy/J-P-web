@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Halant:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
 
 
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -8,7 +9,7 @@
 
 main {
     padding: 4%;
-    background: #FFFFFF;
+    background: #FFFFFF;  
 }
 
 /* header */
@@ -20,10 +21,9 @@ main {
     border: 0.2em solid #155EEF;
     border-radius: 0.8em;
     margin-bottom: 2%;
-    padding-left: 2em;
-    padding-right: 2em;
-
+    padding: 0 2em;
 }
+
 
 a {
     text-decoration: none;
@@ -61,6 +61,16 @@ a {
     line-height: 150%;
     color: #155EEF;
 }
+
+.nav {
+    display: none;
+    pointer-events: none;
+}
+
+.header2 {
+    display: none;
+}
+
 /* header */
 
 /* hero */
@@ -125,11 +135,6 @@ button {
     font-weight: 700;
     font-size: 1em;
     border: 0;
-
-}
-
-.gsecondchild {
-    width: 35%;
 
 }
 /* hero */
@@ -255,7 +260,6 @@ p {
     margin-bottom: 1%;
     padding: 1em 3rem;
     justify-content: space-between;
-
 }
 
 
@@ -263,8 +267,6 @@ p {
     display: flex;
     flex-direction: row;
     gap: 3.2rem;
-
-
 }
 
 .sj {
@@ -275,54 +277,120 @@ p {
     line-height: 150%;
     color: #041330;
     margin-top: 1.5%;
-
 }
 /* footer */
 
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 998px) {
 
-    .secondchild {
-        display: block;
-        width: 30px;
-        height: 20px;
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .parent1 {
+        display: none;
+    }
+
+    header {
         position: relative;
-        cursor: pointer;
-      }
-      
-      .secondchild span {
-        display: block;
-        position: absolute;
-        height: 3px;
-        width: 100%;
-        background-color: #333;
-        border-radius: 3px;
-        opacity: 1;
-        left: 0;
-        transform: rotate(0deg);
-        transition: all 0.25s ease-in-out;
-      }
-      
-      .secondchild span:before,
-      .secondchild span:after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 3px;
-        background-color: #333;
-        border-radius: 3px;
-        transition: all 0.25s ease-in-out;
-      }
-      
-      .secondchild span:before {
-        top: -10px;
-      }
-      
-      .secondchild span:after {
-        bottom: -10px;
-      }
-      
+    }
 
+    .header2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border: 0.2em solid #155EEF;
+        border-radius: 0.8em;
+        margin-bottom: 2%;
+        padding: 0 2em;
+        position: static;
+    }
+
+    nav {
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0.1%;
+        right: 3%;
+        background-color: #F9FBFF;
+        z-index: 0;
+    }
+
+    .nav p {
+        text-align: center;
+        font-style: normal;
+        font-family: Halant;
+        font-size: 20px;
+        font-weight: 600;
+        color: #041330;
+        margin-top: 1em;
+    }
+
+    .p1 {
+        padding-top: 25%;
+    }
+
+
+    nav.visible {
+        display: flex;
+    }
+
+    nav.visible+.lines .bar1 {
+        transform: rotate(45deg);
+        margin-bottom: -5px;
+    }
+
+    nav.visible+.lines .bar2 {
+        transform: rotate(-45deg);
+        margin-bottom: -5px;
+
+    }
+
+    nav.visible+.lines .bar3 {
+        transform: rotate(-45deg);
+
+    }
+
+
+    nav.visible+.lines .line {
+        background-color: crimson !important;
+
+
+    }
+
+    .lines {
+        position: absolute;
+        top: 0.5;
+        right: 9%;
+        cursor: pointer;
+    }
+
+    .bar1 {
+        margin-bottom: 5px;
+    }
+
+    .bar2 {
+        margin-bottom: 5px;
+    }
+
+    .line {
+        width: 50px;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+
+
+    }
+
+    .underline,
+    p {
+        margin: 0;
+        padding: 0;
+        border: #155EEF;
+    }
 
     a {
         display: none;
@@ -343,7 +411,7 @@ p {
         font-size: 10px;
     }
 
-    .gptext3 {
+    .gsecond .gptext3 {
         font-size: 15px;
     }
 
@@ -376,7 +444,7 @@ p {
 
     .posi {
         justify-content: space-evenly;
-        umn-reverse;
+        /* umn-reverse; */
         flex-wrap: wrap;
     }
 
@@ -389,7 +457,7 @@ p {
     }
 
     .posisecondchild {
-        display:none;
+        display: none;
     }
 
     .sj {
