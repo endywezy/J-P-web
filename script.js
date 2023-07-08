@@ -1,9 +1,8 @@
 const hamburger = document.querySelector('.lines')
-const close = document.querySelector('.line')
 const nav = document.querySelector('.nav')
 
-hamburger.addEventListener('click', ()=> {
-    
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active')
     nav.classList.toggle('visible')
-    
+
 })
