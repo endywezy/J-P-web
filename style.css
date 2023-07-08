@@ -278,6 +278,7 @@ p {
     color: #041330;
     margin-top: 1.5%;
 }
+
 /* footer */
 
 
@@ -306,7 +307,7 @@ p {
         border-radius: 0.8em;
         margin-bottom: 2%;
         padding: 0 2em;
-        position: static;
+        position: fixed
     }
 
     nav {
@@ -317,7 +318,7 @@ p {
         top: 0.1%;
         right: 3%;
         background-color: #F9FBFF;
-        z-index: 0;
+        z-index: 3;
     }
 
     .nav p {
